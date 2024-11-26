@@ -42,3 +42,10 @@ window.onclick = function (event) {
         dropdownContent.classList.remove('show');
     }
 };
+
+function submiT(event) {
+    form = document.getElementById('forms');
+       if (form.checkValidity()) {
+           alert('Thank you for submitting your response.');
+       }
+   }
