@@ -973,9 +973,10 @@ nav .show {
       padding: 0 50px;
       gap: 11em;
       p{
-        margin: 0 250px 0 0; 
+        margin: 30px 250px 0 0; 
         color: #573C27; 
         font-size: 17px;
+        font-weight: bold;
         }
     }
     label {
@@ -1058,7 +1059,7 @@ nav .show {
     }
     hr{
         border: 2px solid #573C27;
-        margin: 3em 2em 0;
+        margin: 2.5em 2em 0;
         width: 94%;
     }
     a{
