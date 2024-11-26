@@ -146,20 +146,20 @@
                     
                 </div>
                 <div class="textbox" method="POST">
-                    <form action="#header">
-                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                    <form id="forms">
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" required>
                         <label for="name">NAME</label>
                         <br>
-                        <input type="text" size="67" id="name" maxlength="50">
+                        <input type="text" size="67" id="name" maxlength="50" required>
                         <br>
                         <label for="email">EMAIL</label>
                         <br>
-                        <input type="email" size="67" placeholder=" a@email.com" id="email">
+                        <input type="email" size="67" placeholder=" a@email.com" id="email" required>
                         <br>
                         <label for="messages">MESSAGES</label>
                         <br>
-                        <textarea cols="70" id="messages" placeholder="  Type your message here..."></textarea>
-                        <button onclick="alert('Thank you for submitting your response.')">Send</button>
+                        <textarea cols="70" id="messages" placeholder="  Type your message here..." required></textarea>
+                        <button onclick="submiT(event)">Send</button>
                     </form>
                 </div>
             </div>
